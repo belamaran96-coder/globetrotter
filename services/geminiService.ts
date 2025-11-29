@@ -122,14 +122,11 @@ export const generateTravelPlan = async (data: TravelFormData): Promise<TravelPl
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-3-pro-preview', // Using Pro for complex reasoning
+      model: 'gemini-2.5-flash', // Switched to Flash for higher rate limits and speed
       contents: prompt,
       config: {
         responseMimeType: 'application/json',
         responseSchema: itinerarySchema,
-        thinkingConfig: {
-            thinkingBudget: 32768, // Max thinking for deep reasoning on the itinerary
-        },
       },
     });
 
