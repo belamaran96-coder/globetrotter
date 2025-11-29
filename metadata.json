@@ -1,0 +1,5 @@
+{
+  "name": "GlobeTrotter",
+  "description": "An AI-powered advanced travel planner that generates detailed itineraries, packs lists, and provides budget estimates using Gemini's thinking capabilities and real-time grounding.",
+  "requestFramePermissions": []
+}
