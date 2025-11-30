@@ -252,7 +252,7 @@ function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 bg-[#0b1120] py-12 text-center text-slate-500 text-sm">
-        <p>© 2024 GlobeTrotter AI. All rights reserved.</p>
+        <p>© 2025 GlobeTrotter AI. All rights reserved.</p>
         <p className="mt-2">Built with Gemini 2.5 & React Three Fiber.</p>
       </footer>
     </div>
